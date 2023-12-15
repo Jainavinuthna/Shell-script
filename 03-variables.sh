@@ -1,5 +1,5 @@
 #!/bin/bash
 
-DATE=(date)
+DATE=$(date)
 
-echo "excuted at $DATE)
+echo "excuted at $DATE"
