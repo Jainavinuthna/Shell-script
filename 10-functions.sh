@@ -3,7 +3,7 @@
 ID=$(id -u)
 
 VALIDATE(){
-    if[ $? -ne 0 ]
+    if [ $? -ne 0 ]
     then
     echo "Error:installing  failed"
     exit 1
