@@ -28,8 +28,8 @@ fi
 
 yum install mysql -y &>>$LOGFILE 
 
-VALIDATE $? "$G installing mysql"
+VALIDATE $? "installing mysql"
 
 yum install git -y &>>$LOGFILE
 
-VALIDATE $? "$R installing git"
+VALIDATE $? "installing git"
