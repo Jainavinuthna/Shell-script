@@ -14,4 +14,4 @@ else
 echo -e "you are $R root user"
 fi
 
-echo "All arguments passed: $@"
+echo "All args passed: $@"
