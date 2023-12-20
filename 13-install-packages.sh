@@ -15,9 +15,9 @@ echo "script started excuted at $TIMESTAMP" &>> $LOGFILE
 VALIDATE(){
 if [ $1 -ne 0 ]
 then 
-echo -e"$2..installion $R FAILED $N"
+echo -e "$2..installion $R FAILED $N"
 else
-echo -e"$2..installation $G SUCESS $N"
+echo -e "$2..installation $G SUCESS $N"
 fi
 }
 if [ $ID -ne 0 ]
@@ -25,7 +25,7 @@ then
 echo -e "$R Error:please run with root user $N"
 exit 1
 else
-echo -e "you are $G root user"
+echo -e "you are $G root user $N"
 fi
 
 #echo "All args passed: $@"
