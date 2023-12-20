@@ -39,5 +39,5 @@ do
       VALIDATE $? "installation of $package"
   else
   echo "$package is installed"
-
+   fi
 done      
